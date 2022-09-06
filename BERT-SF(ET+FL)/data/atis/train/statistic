@@ -1,0 +1,26 @@
+data_raw = {'atis_flight': 3309, 'atis_airfare': 385, 'atis_airline': 139, 'atis_ground_service': 230, 'atis_quantity': 41,
+ 'atis_city': 18, 'atis_flight#atis_airfare': 19, 'atis_abbreviation': 130, 'atis_aircraft': 70, 'atis_distance': 17,
+ 'atis_ground_fare': 15, 'atis_capacity': 15, 'atis_flight_time': 45, 'atis_meal': 6,
+ 'atis_aircraft#atis_flight#atis_flight_no': 1, 'atis_flight_no': 12, 'atis_restriction': 5, 'atis_airport': 17,
+ 'atis_airline#atis_flight_no': 2, 'atis_cheapest': 1, 'atis_ground_service#atis_ground_fare': 1}
+
+distrib = {'atis_flight': 0.7389, 'atis_airfare': 0.086, 'atis_airline': 0.031, 'atis_ground_service': 0.0514,
+ 'atis_quantity': 0.0092, 'atis_city': 0.004, 'atis_flight#atis_airfare': 0.0042, 'atis_abbreviation': 0.029,
+ 'atis_aircraft': 0.0156, 'atis_distance': 0.0038, 'atis_ground_fare': 0.0033, 'atis_capacity': 0.0033,
+ 'atis_flight_time': 0.01, 'atis_meal': 0.0013, 'atis_aircraft#atis_flight#atis_flight_no': 0.0002,
+ 'atis_flight_no': 0.0027, 'atis_restriction': 0.0011, 'atis_airport': 0.0038, 'atis_airline#atis_flight_no': 0.0004,
+ 'atis_cheapest': 0.0002, 'atis_ground_service#atis_ground_fare': 0.0002}
+
+
+keyword_dict = {"atis_flight": ["flight", "trip"], "atis_airfare": ["fare", "cost", "price", "ticket", "how much"], "air_line": ["airline"],
+    "atis_ground_service":["ground", "service"], "atis_quantity": ["how many"], "air_city":["city", "cities"], "atis_flight#atis_airfare": ["fare"],
+    "atis_abbreviation":["what is", "what does ... mean"], "atis_aircraft":["aircraft","plane"], "aits_distance":["how long", "how far", "distance"],
+    "atis_ground_fare": ["how much", "price", "cost"], "atis_capacity":["how many", "capacity"], "atis_flight_time": ["time", "schedule"],
+    "atis_meal":["meal"], "atis_aircraft#atis_flight#atis_flight_no":["aircraft", "flight", "number"], "atis_flight_no":["number"],
+    "atis_restriction":["restriction"], "atis_airport":["airport"], "atis_airline#atis_flight_no":["airline", "number"], "atis_cheapest":["cheapest", "fare"],
+    "atis_ground_service#atis_ground_fare": ["ground", "service", "fare"]
+    }
+keyword_list = ['flight', 'cost', 'how many', 'city', 'what is', 'cheapest', 'trip', 'ground', 'time', 'cities',
+                'airline', 'meal', 'service', 'schedule', 'aircraft', 'fare', 'ticket', 'capacity',
+                'what does ... mean', 'plane', 'restriction', 'how far', 'how long', 'airport', 'price', 'number',
+                'how much', 'distance']

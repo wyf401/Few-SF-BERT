@@ -1,0 +1,10 @@
+data_raw = {'PlayMusic': 1914, 'AddToPlaylist': 1818, 'RateBook': 1876, 'SearchScreeningEvent': 1852, 'BookRestaurant': 1881,
+ 'GetWeather': 1896, 'SearchCreativeWork': 1847}
+
+distrib = {'PlayMusic': 0.1463, 'AddToPlaylist': 0.1389, 'RateBook': 0.1434, 'SearchScreeningEvent': 0.1415,
+ 'BookRestaurant': 0.1438, 'GetWeather': 0.1449, 'SearchCreativeWork': 0.1412}
+
+- bad case:
+SearchScreeningEvent & SearchCreativeWork区分　原因: 依赖外部知识
+
+snips数据集文本结构更为简单, 意图和槽识别的问题都在于需要外部知识才能识别专有名词

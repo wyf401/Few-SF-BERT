@@ -1,0 +1,26 @@
+atis_ground_fare=-=He is asking for the ground fare
+atis_flight_time=-=He is asking for the flight time
+atis_airline#atis_flight_no=-=He is asking for the arline and the flight numbert
+atis_quantity=-=He is asking for the quantity
+atis_distance=-=He is asking for the distance
+atis_flight=-=He is asking for his flight or trip
+atis_city=-=He is asking for the target city information
+atis_capacity=-=He is asking for the capacity of plane
+atis_ground_service#atis_ground_fare=-=He is asking for the ground service
+atis_flight#atis_airfare=-=He is asking for his flight and fare
+atis_aircraft=-=He is asking for the aircraft of plane information
+atis_flight_no=-=He is asking for the flight numbert
+atis_cheapest=-=He is asking for the cheapest choice
+atis_airline=-=He is asking for the airline information
+atis_abbreviation=-=He is asking for explanation
+atis_aircraft#atis_flight#atis_flight_no=-=He is asking for aircraft and flight infomation and flight numbert
+atis_restriction=-=He is asking for the flight restriction
+atis_airport=-=He is asking for the airport information
+atis_meal=-=He is asking for the meal detail
+atis_airfare=-=He is asking for the fare of flight
+atis_ground_service=-=He is asking for the ground service
+atis_airfare#atis_flight_time=-=He is asking for the fare of flight and the flight time
+atis_day_name=-=He is asking for the flight day time
+atis_airfare#atis_flight=-=He is asking for the fare of flight and flight information
+atis_flight#atis_airline=-=He is asking for the flight information and the airline information
+atis_flight_no#atis_airline=-=He is asking for the flight number and the airline information
